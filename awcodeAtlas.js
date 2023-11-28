@@ -19,7 +19,7 @@ app.use(express.static("public"));
 // Connect to a MongoDB database named todolistDB with a deprecation fix for the URL parser
 //mongoose.connect("mongodb://localhost:27017/todolistDB", { useNewUrlParser: true });
 
-const MONGODB_ATLAS_URI = "mongodb+srv://Palome27:<password>@cluster0.etfatwk.mongodb.net/?retryWrites=true&w=majority"
+const MONGODB_ATLAS_URI = "mongodb+srv://Palome27:Ap93200g@cluster0.etfatwk.mongodb.net/?retryWrites=true&w=majority"
 mongoose.connect(MONGODB_ATLAS_URI, { useNewUrlParser: true, useUnifiedTopology: true });
 
 
